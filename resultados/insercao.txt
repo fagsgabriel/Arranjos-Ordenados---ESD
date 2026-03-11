@@ -1,0 +1,16 @@
+=== EXPERIMENTO: INSERÇÃO ===
+Tipo de Inserção             | Ordenação Crescente        | Ordenação Decrescente     
+--------------------------------------------------------------------------------------
+Crescente                    | 3.79 +/- 0.8113 ms         | 1185.42 +/- 514.1534 ms   
+Decrescente                  | 1529.06 +/- 278.2230 ms    | 3.35 +/- 0.6630 ms        
+Aleatória                    | 406.70 +/- 222.9897 ms     | 355.67 +/- 191.8673 ms    
+
+
+=== TESTE DE WILCOXON — INSERÇÃO ===
+(Crescente vs Decrescente para cada tipo de inserção)
+Tipo Inserção  | Estatística W | p-value    | Conclusão
+-----------------------------------------------------------------
+CRESCENTE      | 5050.00       | 0.0000     | Diferença significativa (p < 0,05)
+DECRESCENTE    | 5050.00       | 0.0000     | Diferença significativa (p < 0,05)
+ALEATORIA      | 2611.00       | 0.7661     | Sem diferença significativa
+

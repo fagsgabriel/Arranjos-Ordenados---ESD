@@ -1,0 +1,16 @@
+=== EXPERIMENTO: EXCLUSÃO ===
+Pré-preenchimento            | Ordenação Crescente        | Ordenação Decrescente     
+--------------------------------------------------------------------------------------
+Crescente                    | 665.17 +/- 310.5083 ms     | 557.40 +/- 48.6705 ms     
+Decrescente                  | 490.72 +/- 146.2990 ms     | 409.75 +/- 183.7118 ms    
+Aleatória                    | 187.70 +/- 28.0629 ms      | 173.74 +/- 9.3683 ms      
+
+
+=== TESTE DE WILCOXON — EXCLUSÃO ===
+(Crescente vs Decrescente para cada pré-preenchimento)
+Pré-preenchimento  | Estatística W | p-value    | Conclusão
+----------------------------------------------------------------------
+CRESCENTE          | 3844.00       | 0.0000     | Diferença significativa (p < 0,05)
+DECRESCENTE        | 3589.00       | 0.0003     | Diferença significativa (p < 0,05)
+ALEATORIA          | 3847.00       | 0.0000     | Diferença significativa (p < 0,05)
+
